@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "./edutrackai logo.jpeg";
+import logo from "../assets/Standalone_Logo.png";
 
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <>
             <div
-                className="navbar-container"
+                className="navbar-container  "
                 style={{
                     width: "100%",
                     backgroundColor: scrolled ? "rgba(255, 255, 255, 0.95)" : "white",

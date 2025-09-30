@@ -5,7 +5,7 @@ function EduTrackHero() {
     return (
         <div style={{
             fontFamily: 'Arial, sans-serif',
-            margin: 0,
+            margin: 1,
             padding: '1rem',
             background: '#f9f9f9',
             color: '#333'
@@ -60,7 +60,7 @@ function EduTrackHero() {
                 marginBottom: '1rem'
             }}>
                 <img
-                    src="src/top%20here.png"
+                    src="src/assets/top%20here.png"
                     alt="Classroom"
                     style={{
                         width: '100%',
@@ -135,7 +135,7 @@ function EduTrackHero() {
                     borderRadius: '12px'
                 }}>
                     <img
-                        src="src/bottom%20right.png"
+                        src="src/assets/bottom%20right.png"
                         alt="Students working together"
                         style={{
                             width: '100%',
@@ -153,7 +153,7 @@ function EduTrackHero() {
                     borderRadius: '12px'
                 }}>
                     <img
-                        src="src/bottom%20here%20left.png"
+                        src="src/assets/bottom%20here%20left.png"
                         alt="Team collaboration and learning"
                         style={{
                             width: '100%',

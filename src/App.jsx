@@ -1,11 +1,10 @@
 import './App.css'
-import Navbar from "./navbar.jsx";
-import Footer from "./Footer.jsx";
-import KeyBenefits from "./KeyBenefits.jsx";
-import EduTrackPricing from "./pricing.jsx";
-import EduTrackHero from "./EduTrackHero.jsx";
-import ContactSection from "./contact us.jsx";
-import StripBand from "./strip-band.jsx";
+import Navbar from "./layout/navbar.jsx";
+import Footer from "./layout/Footer.jsx";
+import KeyBenefits from "./components/KeyBenefits.jsx";
+import EduTrackPricing from "./components/pricing.jsx";
+import EduTrackHero from "./components/EduTrackHero.jsx";
+import ContactSection from "./components/contact us.jsx";
 
 function App() {
     return (
@@ -98,7 +97,7 @@ function App() {
                                 marginBottom: "1rem"
                             }}>
                                 <img
-                                    src="src\eagle logo.jpeg"
+                                    src="src/assets/eagle logo.jpeg"
                                     alt="Avuyile Disane"
                                     style={{
                                         width: "220px",
