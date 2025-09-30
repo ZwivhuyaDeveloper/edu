@@ -77,19 +77,21 @@ function Navbar() {
                                     fontSize: "1.25rem",
                                     color: "#2D3748",
                                     lineHeight: "1.2",
-                                    whiteSpace: "nowrap"
+                                    whiteSpace: "nowrap",
                                 }}
                             >
                                 EduTrack
                             </div>
                             <div
                                 style={{
-                                    fontSize: "0.75rem",
+                                    fontSize: "0.65rem",
                                     color: "#008B8B",
-                                    fontWeight: 500,
+                                    fontWeight: 600,
                                     lineHeight: "1",
-                                    whiteSpace: "nowrap"
+                                    whiteSpace: "nowrap",
+                                    letterSpacing: "2px"
                                 }}
+                                className="text-xs text-red-500"
                             >
                                 AI SOFTWARE
                             </div>
